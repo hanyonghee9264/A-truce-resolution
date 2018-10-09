@@ -82,5 +82,5 @@ class Crawler:
 
 if __name__ == '__main__':
     crawler = Crawler()
-    w = crawler.get_webtoon('유미의 세포들')
+    w = crawler.get_webtoon('타인은 지옥이다')
     print(w.episode_dict)
